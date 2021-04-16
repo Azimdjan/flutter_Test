@@ -16,7 +16,7 @@ int movie(double cardPrice, double ticket_Price, double percentage) {
   int times = 1;
   while (true) {
     double system_A = (ticket_Price * times);
-    double additional = 1;
+    double additional = 0.0;
     for (int i = 0; i < times; i++) {
       additional += (additional * percentage);
     }
